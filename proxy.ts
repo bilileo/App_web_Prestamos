@@ -14,5 +14,6 @@ export const config = {
     "/dashboard/:path*",
     "/assets/:path*",
     "/categories/:path*",
+    "/users/:path*",
   ],
 };

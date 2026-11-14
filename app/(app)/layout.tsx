@@ -22,6 +22,10 @@ export default async function AppLayout({
   if (hasPermission(user.role, "categories:create")) {
     items.push({ label: "Categorías", href: "/categories/new" });
   }
+
+  if (hasPermission(user.role, "users:read")) {
+    items.push({ label: "Usuarios", href: "/users" });
+  }
  
   return (
     <>

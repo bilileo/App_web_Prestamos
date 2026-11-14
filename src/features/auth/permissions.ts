@@ -11,6 +11,9 @@ export const PERMISSIONS = [
   "categories:update",
   "categories:delete",
   "users:read",
+  "users:create",
+  "users:update",
+  "users:delete",
 ] as const;
  
 export type Permission = (typeof PERMISSIONS)[number];

@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Diagramas de autenticación y RBAC
+
+- [Flujo de autenticación con NextAuth](docs/diagrama-autenticacion.md)
+- [Manejo de roles y permisos (RBAC)](docs/diagrama-rbac.md)
+
 ## Getting Started
 
 First, run the development server:
